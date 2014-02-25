@@ -7,6 +7,9 @@
 //
 
 #import "ViewController.h"
+#import "HttpUtils.h"
+
+NSString *const stringURL = @"http://phobos.apple.com/WebObjects/MZStoreServices.woa/ws/RSS/toppaidapplications/limit=75/xml";
 
 @interface ViewController ()
 
@@ -18,6 +21,18 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    [HttpUtils invokeAPIWithURL:[NSURL URLWithString:stringURL] parameters:nil andCompletionHandler:^(NSString *response, NSDictionary *paramObj, NSError *error, BOOL isSuccess) {
+        
+        if (isSuccess) {
+            NSLog(@"success %@ ", response);
+            
+        }else{
+            NSLog(@"failure");
+           
+        }
+    } inView:self.view andLoadmessage:@"Please wait..."];
+    
 }
 
 - (void)didReceiveMemoryWarning

@@ -13,7 +13,6 @@
 		0507E53A18BC2838004BFD9A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0507E53818BC2838004BFD9A /* InfoPlist.strings */; };
 		0507E53C18BC2838004BFD9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0507E53B18BC2838004BFD9A /* main.m */; };
 		0507E54018BC2838004BFD9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0507E53F18BC2838004BFD9A /* AppDelegate.m */; };
-		0507E54318BC2838004BFD9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0507E54118BC2838004BFD9A /* Main.storyboard */; };
 		0507E54618BC2838004BFD9A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0507E54518BC2838004BFD9A /* ViewController.m */; };
 		0507E54818BC2838004BFD9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0507E54718BC2838004BFD9A /* Images.xcassets */; };
 		0507E54F18BC2839004BFD9A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0507E54E18BC2839004BFD9A /* XCTest.framework */; };
@@ -21,6 +20,10 @@
 		0507E55118BC2839004BFD9A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0507E53318BC2838004BFD9A /* UIKit.framework */; };
 		0507E55918BC2839004BFD9A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0507E55718BC2839004BFD9A /* InfoPlist.strings */; };
 		0507E55B18BC2839004BFD9A /* HttpRequestFromSingletonPatternTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0507E55A18BC2839004BFD9A /* HttpRequestFromSingletonPatternTests.m */; };
+		0507E56518BC2860004BFD9A /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0507E56418BC2860004BFD9A /* ViewController.xib */; };
+		0507E56918BC290E004BFD9A /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 0507E56818BC290E004BFD9A /* MBProgressHUD.m */; };
+		0507E56B18BC2945004BFD9A /* Window.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0507E56A18BC2945004BFD9A /* Window.xib */; };
+		0507E56E18BC2B68004BFD9A /* HttpUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0507E56D18BC2B68004BFD9A /* HttpUtils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +47,6 @@
 		0507E53D18BC2838004BFD9A /* HttpRequestFromSingletonPattern-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HttpRequestFromSingletonPattern-Prefix.pch"; sourceTree = "<group>"; };
 		0507E53E18BC2838004BFD9A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0507E53F18BC2838004BFD9A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0507E54218BC2838004BFD9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0507E54418BC2838004BFD9A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		0507E54518BC2838004BFD9A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0507E54718BC2838004BFD9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -53,6 +55,12 @@
 		0507E55618BC2839004BFD9A /* HttpRequestFromSingletonPatternTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HttpRequestFromSingletonPatternTests-Info.plist"; sourceTree = "<group>"; };
 		0507E55818BC2839004BFD9A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0507E55A18BC2839004BFD9A /* HttpRequestFromSingletonPatternTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HttpRequestFromSingletonPatternTests.m; sourceTree = "<group>"; };
+		0507E56418BC2860004BFD9A /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		0507E56718BC290E004BFD9A /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		0507E56818BC290E004BFD9A /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		0507E56A18BC2945004BFD9A /* Window.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Window.xib; sourceTree = "<group>"; };
+		0507E56C18BC2B68004BFD9A /* HttpUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpUtils.h; sourceTree = "<group>"; };
+		0507E56D18BC2B68004BFD9A /* HttpUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpUtils.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,13 +120,15 @@
 		0507E53518BC2838004BFD9A /* HttpRequestFromSingletonPattern */ = {
 			isa = PBXGroup;
 			children = (
+				0507E56618BC28EF004BFD9A /* ExternalLibrarries */,
 				0507E53E18BC2838004BFD9A /* AppDelegate.h */,
 				0507E53F18BC2838004BFD9A /* AppDelegate.m */,
-				0507E54118BC2838004BFD9A /* Main.storyboard */,
 				0507E54418BC2838004BFD9A /* ViewController.h */,
 				0507E54518BC2838004BFD9A /* ViewController.m */,
 				0507E54718BC2838004BFD9A /* Images.xcassets */,
 				0507E53618BC2838004BFD9A /* Supporting Files */,
+				0507E56418BC2860004BFD9A /* ViewController.xib */,
+				0507E56A18BC2945004BFD9A /* Window.xib */,
 			);
 			path = HttpRequestFromSingletonPattern;
 			sourceTree = "<group>";
@@ -150,6 +160,17 @@
 				0507E55718BC2839004BFD9A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0507E56618BC28EF004BFD9A /* ExternalLibrarries */ = {
+			isa = PBXGroup;
+			children = (
+				0507E56718BC290E004BFD9A /* MBProgressHUD.h */,
+				0507E56818BC290E004BFD9A /* MBProgressHUD.m */,
+				0507E56C18BC2B68004BFD9A /* HttpUtils.h */,
+				0507E56D18BC2B68004BFD9A /* HttpUtils.m */,
+			);
+			name = ExternalLibrarries;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,8 +250,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0507E54818BC2838004BFD9A /* Images.xcassets in Resources */,
+				0507E56518BC2860004BFD9A /* ViewController.xib in Resources */,
 				0507E53A18BC2838004BFD9A /* InfoPlist.strings in Resources */,
-				0507E54318BC2838004BFD9A /* Main.storyboard in Resources */,
+				0507E56B18BC2945004BFD9A /* Window.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,8 +272,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0507E54618BC2838004BFD9A /* ViewController.m in Sources */,
+				0507E56E18BC2B68004BFD9A /* HttpUtils.m in Sources */,
 				0507E54018BC2838004BFD9A /* AppDelegate.m in Sources */,
 				0507E53C18BC2838004BFD9A /* main.m in Sources */,
+				0507E56918BC290E004BFD9A /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,14 +304,6 @@
 				0507E53918BC2838004BFD9A /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		0507E54118BC2838004BFD9A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0507E54218BC2838004BFD9A /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		0507E55718BC2839004BFD9A /* InfoPlist.strings */ = {
